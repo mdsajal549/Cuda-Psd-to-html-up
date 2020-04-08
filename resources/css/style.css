@@ -1,0 +1,975 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+
+    background: linear-gradient(rgba(135, 80, 156, 0.9), rgba(135, 80, 156, .9)),
+        url(img/bg-5.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+
+
+.logo {
+    position: fixed;
+    float: left;
+    margin: 15px 40px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+
+
+
+
+}
+
+/*
+nav {
+    position: fixed;
+    width: 100%;
+    background: #8F5B9A;
+    box-shadow: 0px 5px 10px 0px;
+    color: #fff;
+
+}
+
+nav ul {
+    list-style: none;
+
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    -webkit-transition: .5s;
+    transition: .5s;
+    margin: 10px 0px 0px 200px;
+
+
+}
+
+
+
+nav.black ul {
+    background: #8F5B9A;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+    text-transform: uppercase;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+
+}
+
+nav ul li:hover {
+    background: #643a79;
+    border-radius: 20px 25px;
+
+
+
+}
+
+.active {
+    background: #643a79;
+    padding: 4px 6px;
+
+}
+
+.menu-icon {
+    width: 100%;
+    background: #000;
+    text-align: right;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+*/
+
+/*header css start*/
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+header span {
+    display: none;
+}
+
+
+/*mobile menu end*/
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    background: #8F5B9A;
+    box-shadow: 0px 5px 10px 0px;
+    color: #fff;
+
+}
+
+
+
+
+nav ul {
+    float: right;
+    margin-top: 15px;
+    color: #000;
+    margin-right: 100px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    /* padding: 10px 20px;*/
+    margin: 20px;
+}
+
+
+
+nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+
+
+
+}
+
+nav ul li:hover {
+    background: #273A71;
+
+
+
+}
+
+.sticky {
+
+    position: fixed;
+    width: 100%;
+    background: #8F5B9A;
+    box-shadow: 0px 5px 10px 0px;
+    color: #fff;
+
+
+}
+
+.sticky ul {
+    margin-top: 15px;
+    color: #000;
+    margin-right: 100px;
+
+}
+
+.sticky ul li {
+    margin: 20px;
+}
+
+.sticky ul li a {
+    text-transform: uppercase;
+}
+
+.sticky img {
+    margin-left: 70px;
+
+}
+
+nav img {
+    font-size: 30px;
+    margin: 25px 0px 15px 70px;
+    display: inline-block;
+}
+
+p {
+    text-align: center;
+    margin: 0px 50px;
+    font-size: 30px;
+}
+
+
+
+
+
+/*header css end*/
+
+
+
+
+
+
+
+
+header h1 {
+    display: inline-block;
+
+    font-size: 250%;
+    font-weight: 700;
+    margin: 230px 0 0 230px;
+    color: #fff;
+    text-align: center;
+}
+
+header button {
+    width: 250px;
+    height: 65px;
+    margin-left: 550px;
+
+    background: #eb7d4b;
+    border: 1px solid #eb7d4b;
+    border-radius: 5px solid #eb7d4b;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 130%;
+    margin-top: 60px;
+    --box-shadow-color: #c86a40;
+    ;
+    /* Declaring the variable */
+
+    -webkit-box-shadow: 0px 5px 0px var(--box-shadow-color);
+
+    box-shadow: 0px 5px 0px var(--box-shadow-color);
+
+}
+
+/*service section*/
+
+.service {
+
+    background: linear-gradient(rgba(23, 194, 164, .9), rgba(23, 194, 164, .9)), url(img/services.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+
+    text-align: center margin-top: -20px;
+}
+
+.grid-service {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.service h2 {
+    font-size: 250%;
+    color: #fff;
+
+    margin: 100px 0px 0px 450px;
+    display: inline-block;
+    font-weight: 700;
+
+}
+
+.service hr {
+    width: 85px;
+    height: 2px;
+    background: #14A58C;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.service p {
+    font-size: 140%;
+    color: #fff;
+    text-align: center;
+
+
+
+    font-weight: 400;
+
+}
+
+.grid-service img {
+    margin-top: 60px;
+    margin-left: 115px;
+}
+
+
+
+.grid-service-item h4 {
+    font-size: 180%;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+
+
+}
+
+.grid-service-item p {
+    font-size: 120%;
+    color: #fff;
+    font-weight: 400;
+    padding-bottom: 80px;
+
+}
+
+/*team section css*/
+
+.team {
+    background: linear-gradient(rgba(231, 241, 248, 0.8), rgba(231, 241, 248, 0.8)),
+        url(img/team-bg.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    margin-top: -20px;
+    padding-bottom: 80px;
+}
+
+.team-col-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.team h2 {
+    font-size: 250%;
+    color: #3c4761;
+    margin-top: 100px;
+    display: inline-block;
+    margin-left: 400px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.team hr {
+    width: 85px;
+    height: 2px;
+    background: #3c4761;
+
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+.team p {
+    font-size: 120%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.team-col-4 img {
+    margin: 20px -10px 20px 70px;
+    border-radius: 50%;
+}
+
+
+.team-col-4 h4 {
+    font-size: 150%;
+    font-weight: 700;
+    color: #3c4761;
+    text-transform: uppercase;
+
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.team-col-4 span {
+    font-size: 100%;
+    font-weight: 400;
+    color: #30bae7;
+    margin: 10px 0px 0px 100px;
+
+
+}
+
+.team-col-4 p {
+    font-size: 100%;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.team .icon-1 {
+    margin-left: 60px;
+}
+
+.team .icon-1 a i {
+    width: 10px;
+    height: 10px;
+
+    font-size: 100%;
+    color: #fff;
+    border-radius: 100%;
+    background: #878787;
+    margin: 5px;
+    border: 1px solid #878787;
+    padding: 8px 14px 15px 10px;
+
+}
+
+.team .icon-2 {
+    margin-left: 90px;
+}
+
+.team .icon-2 a i {
+    width: 10px;
+    height: 10px;
+
+    font-size: 100%;
+    color: #fff;
+    border-radius: 100%;
+    background: #878787;
+
+    margin: 5px;
+    border: 1px solid #878787;
+    padding: 8px 14px 15px 10px;
+
+}
+
+.team .icon-3 {
+    margin-left: 70px;
+}
+
+
+
+.team .icon-3 a i {
+    width: 10px;
+    height: 10px;
+
+    font-size: 100%;
+    color: #fff;
+    border-radius: 100%;
+    background: #878787;
+    margin: 5px;
+    border: 1px solid #878787;
+    padding: 8px 14px 15px 10px;
+
+}
+
+.team .icon-4 {
+    margin-left: 100px;
+}
+
+
+.team .icon-4 a i {
+    width: 10px;
+    height: 10px;
+
+    font-size: 100%;
+    color: #fff;
+    border-radius: 100%;
+    background: #878787;
+    margin: 5px;
+    border: 1px solid #878787;
+    padding: 8px 14px 15px 10px;
+
+}
+
+.team-item a i:hover {
+    background: #fff;
+    color: #878787;
+
+}
+
+/*skill section css*/
+
+.skill {
+
+
+    background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(img/skill-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -40px;
+
+    background-attachment: fixed;
+}
+
+
+
+
+.skill h2 {
+    font-size: 300%;
+    font-weight: 700;
+    margin-left: 480px;
+    color: #3c4762;
+    margin-top: 80px;
+    display: inline-block;
+
+}
+
+.skill hr {
+    width: 85px;
+    height: 2px;
+    background: #3c4762;
+
+
+    text-align: center;
+    margin-top: -15px;
+
+}
+
+
+
+.skill p {
+    color: #3c4762;
+    text-align: center;
+    font-weight: 400;
+    font-size: 150%;
+
+}
+
+.skill-col-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 50px 0px 0px 80px;
+    padding-bottom: 50px;
+
+}
+
+.skill-col-4 svg.radial-progress circle {
+    stroke-width: 5;
+
+
+}
+
+.skill-col-4 svg.radial-progress text {
+    fill: #393939;
+
+}
+
+.skill-col-4 svg.web-design circle {
+    stroke: #30bae7;
+}
+
+.skill-col-4 svg.html-css circle {
+    stroke: #d74680;
+}
+
+.skill-col-4 svg.graphic-design circle {
+    stroke: #15c7a8;
+}
+
+.skill-col-4 svg.ui-ux circle {
+    stroke: #eb7d4b;
+}
+
+
+.skill-col-4 h3 {
+
+    color: #3c4761;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+/*portfolio section*/
+
+
+.portfolio {
+
+    background: linear-gradient(rgba(255, 224, 163, 0.8), rgba(255, 224, 163, 0.8)),
+        url(img/portfolio-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+
+
+}
+
+.portfolio h2 {
+    margin: 80px 0px 0px 520px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 250%;
+    text-transform: uppercase;
+    color: #393939;
+
+
+}
+
+.portfolio hr {
+    width: 85px;
+    height: 2px;
+    background: #EAC885;
+
+
+    text-align: center;
+
+}
+
+
+.portfolio p {
+    font-size: 140%;
+    color: #393939;
+    font-weight: 400;
+    text-align: center;
+}
+
+.portfolio .button {
+    margin-left: 400px;
+
+
+    padding: 30px;
+
+    font-size: 160%;
+
+
+}
+
+
+.portfolio .button-first,
+.button-second,
+.button-third,
+.button-fourth {
+
+
+    background: #EBC985;
+    margin: 0px 10px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    border: 2px solid #EBC985;
+    border-radius: 5px solid #ebc985;
+}
+
+.portfolio .button-first:hover,
+.button-second:hover,
+.button-third:hover,
+.button-fourth:hover {
+    background: #fff;
+}
+
+
+
+
+
+.port-col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+
+.port-col-2 img {
+    margin-left: 70px;
+}
+
+.port-col-2 h4 {
+    margin-left: 210px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.portfolio .button-load button {
+    width: 220px;
+    height: 50px;
+    background: #17c2a4;
+    color: #fff;
+
+    border: 1px solid #17c2a4;
+    border-radius: 5px solid #17c2a4;
+    margin: 50px 0px 50px 570px;
+    text-transform: uppercase;
+    font-size: 100%;
+
+
+    --box-shadow-color: #14a58c;
+    ;
+    /* Declaring the variable */
+
+    -webkit-box-shadow: 0px 5px 0px var(--box-shadow-color);
+
+    box-shadow: 0px 5px 0px var(--box-shadow-color);
+
+
+}
+
+
+
+/*about section*/
+.about {
+    background: linear-gradient(rgba(215, 70, 128, 0.8), rgba(215, 70, 128, 0.8)),
+        url('img/bg-5.jpg') no-repeat center/cover;
+    background-attachment: fixed;
+
+}
+
+.about h2 {
+    font-size: 250%;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 430px;
+    margin-top: 70px;
+    display: inline-block;
+
+
+
+
+}
+
+
+.about hr {
+    width: 85px;
+    height: 2px;
+    background: #fff;
+
+
+    text-align: center;
+}
+
+
+
+.about p {
+    font-size: 150%;
+    text-align: center;
+    color: #edb8ca;
+
+
+}
+
+.about-col-2 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 100px;
+
+}
+
+.about-col-2 p {
+    font-size: 140%;
+    font-weight: 400;
+    text-align: justify;
+    margin-left: 265px;
+    color: #edb8ca;
+}
+
+.about-col-2 h4 {
+    margin-left: 65px;
+    font-weight: 700;
+    font-size: 180%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+
+
+}
+
+.about-col-2 span {
+    margin-left: 265px;
+    font-weight: 400;
+    font-size: 140%;
+    margin-top: -10px;
+    display: inline-block;
+    margin-bottom: 70px;
+    color: #fcd597;
+
+}
+
+
+.about-col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 0px;
+
+}
+
+
+
+/*contact section*/
+
+
+.contact {
+    background: linear-gradient(rgba(60, 84, 153, 0.8), rgba(60, 84, 153, 0.8)),
+        url(img/ng-2.jpg)no-repeat center/cover;
+    background-attachment: fixed;
+
+}
+
+.contact h2 {
+    margin: 70px 0px 0px 533px;
+    display: inline-block;
+
+    font-size: 250%;
+    font-weight: 700;
+    color: #fff;
+
+
+}
+
+.contact hr {
+    width: 85px;
+    height: 2px;
+    background: #273a71;
+
+
+    text-align: center;
+}
+
+.contact p {
+    font-size: 120%;
+    text-align: center;
+    font-weight: 400;
+    color: #ebedf3;
+
+}
+
+.contact form {
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+.contact form input[type='text'] {
+    width: 400px;
+    height: 50px;
+    margin-right: 20px;
+    background: #273a71;
+    border: 1px solid #273a71;
+    border-radius: 5px solid #273a71;
+    color: #bdc0ce;
+
+
+}
+
+
+.contact form input[type='email'] {
+    width: 400px;
+    height: 50px;
+    background: #273a71;
+    border: 1px solid #273a71;
+    border-radius: 5px solid #273a71;
+    color: #bdc0ce;
+
+
+}
+
+.contact textarea {
+    width: 835px;
+    height: 180px;
+    margin: 50px 0px 10px 255px;
+    background: #273a71;
+    border: 1px solid #273a71;
+    border-radius: 5px solid #273a71;
+    color: #bdc0ce;
+
+}
+
+.contact button {
+    width: 230px;
+    height: 50px;
+    background: #17c2a4;
+    color: #fff;
+
+    border: 1px solid #17c2a4;
+    border-radius: 5px solid #17c2a4;
+    margin: 30px 0px 50px 555px;
+    text-transform: uppercase;
+    font-size: 100%;
+
+
+    --box-shadow-color: #14a58c;
+    ;
+    /* Declaring the variable */
+
+    -webkit-box-shadow: 0px 5px 0px var(--box-shadow-color);
+
+    box-shadow: 0px 5px 0px var(--box-shadow-color);
+
+}
+
+/*footer css*/
+footer {
+    background: #344b8e;
+    padding: 25px;
+}
+
+footer ul {
+    text-align: center;
+
+
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0px 20px;
+
+
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 160%;
+    font-weight: 500;
+
+}
+
+footer ul li a:hover {
+
+    color: #30bae7;
+}
+
+
+.copyright {
+    background: #87509c;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 100%;
+}
